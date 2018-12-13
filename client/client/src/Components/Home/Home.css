@@ -1,0 +1,75 @@
+/* .para-img {
+    height: 300px;
+} */
+
+/* body {
+    background-image: url("../../Assets/full-bloom.png")
+  }
+   */
+
+  body, html {
+    height: 100%;
+}
+
+ #para-height {
+    overflow: hidden;
+    background-position: center;
+    height: 600px;
+} 
+
+.section-white { 
+    /* The image used */
+    background-image: url("../../Assets/full-bloom.png");
+    /* Full height */
+    
+    
+
+    /* Center and scale the image nicely */
+    background-position: center;
+       
+}
+
+.section {
+    padding-top: 1.6rem;
+    padding-bottom: 1.6rem;
+}
+
+.para-img {
+   
+    overflow: hidden;
+  
+    
+    background-position: center;
+}
+
+   .review {
+    
+        
+        margin: 0 auto;
+        -webkit-box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+        box-shadow: 0 3rem 6rem rgba(0,0,0,0.1);
+        background-color: rgba(255,255,255,0.6);
+        border-radius: 3px;
+        padding: 6rem;
+        /* padding-left: 9rem; */
+        font-size: 1.6rem;
+        -webkit-transform: skewX(-12deg);
+         transform: skewX(-12deg); 
+         
+   }
+
+   .review__text {
+    -webkit-transform: skewX(-6deg);
+    transform: skewX(-6deg);
+    padding: 1.4rem;
+   
+}
+
+   .heading-tertiary {
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-transform: skewX(-6deg);
+    transform: skewX(-6deg); 
+    
+}

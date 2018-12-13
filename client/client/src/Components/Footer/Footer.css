@@ -1,0 +1,40 @@
+.social-container {
+      
+        float: left;
+
+        
+        -webkit-shape-outside: circle(50% at 50% 50%);
+        shape-outside: circle(50% at 50% 50%);
+        clip-path: circle(50% at 50% 50%);
+        -webkit-clip-path: circle(50% at 50% 50%);
+    }
+
+
+    .page-footer {
+        background-image: url("../../Assets/full-bloom.png");
+        margin-top: auto;
+    }
+
+ 
+    .map-con {
+        
+        width: 135px;
+        height: 135px;
+        float: left;
+    }
+
+    .numbers-con {
+        font-size:  1.5rem;
+        margin-left:  10rem;
+        padding:  .5rem;
+        float: left;
+        color: #999;
+        text-overflow: clip;
+    }
+
+    .name {
+        float: left;
+    }
+    .number {
+        float: left;
+    }

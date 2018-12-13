@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+
+    <!--
+      manifest.json provides metadata used when your web app is added to the
+      homescreen on Android. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Great+Vibes" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Cormorant+Garamond|Cormorant+Upright" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <!-- Compiled and minified CSS -->
+
+
+    <!-- Compiled and minified JavaScript -->
+    
+
+    
+    <!--
+      Notice the use of %PUBLIC_URL% in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>React App</title>
+  </head>
+  <body>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+   
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  </body>
+
+  <!-- <script type="text/javascript">
+      // Enter an API key from the Google API Console:
+      //   https://console.developers.google.com/apis/credentials
+      var apiKey = 'AIzaSyDEDQQsHYbEPlF8xz975G8C71EzURnRpnU';
+      // Enter the API Discovery Docs that describes the APIs you want to
+      // access. In this example, we are accessing the People API, so we load
+      // Discovery Doc found here: https://developers.google.com/people/api/rest/
+      var discoveryDocs = ["https://www.googleapis.com/discovery/v1/apis/drive/v3/rest"];
+      // Enter a client ID for a web application from the Google API Console:
+      //   https://console.developers.google.com/apis/credentials?project=_
+      // In your API Console project, add a JavaScript origin that corresponds
+      //   to the domain where you will be running the script.
+      var clientId = '1042045526665-pgqmeev8b1vi7m4unesnncdqilkiqf8d.apps.googleusercontent.com';
+      // Enter one or more authorization scopes. Refer to the documentation for
+      // the API or https://developers.google.com/people/v1/how-tos/authorizing
+      // for details.
+      var scopes = 'https://www.googleapis.com/auth/photoslibrary.readonly';
+      var authorizeButton = document.getElementById('authorize-button');
+      var signoutButton = document.getElementById('signout-button');
+      function handleClientLoad() {
+        // Load the API client and auth2 library
+        gapi.load('client:auth2', initClient);
+      }
+      function initClient() {
+        gapi.client.init({
+            apiKey: apiKey,
+            discoveryDocs: discoveryDocs,
+            clientId: clientId,
+            scope: scopes
+        }).then(function () {
+          // Listen for sign-in state changes.
+          gapi.auth2.getAuthInstance().isSignedIn.listen(updateSigninStatus);
+          // Handle the initial sign-in state.
+          updateSigninStatus(gapi.auth2.getAuthInstance().isSignedIn.get());
+          authorizeButton.onclick = handleAuthClick;
+          signoutButton.onclick = handleSignoutClick;
+        });
+      }
+      function updateSigninStatus(isSignedIn) {
+        if (isSignedIn) {
+          authorizeButton.style.display = 'none';
+          signoutButton.style.display = 'block';
+          makeApiCall();
+        } else {
+          authorizeButton.style.display = 'block';
+          signoutButton.style.display = 'none';
+        }
+      }
+      function handleAuthClick(event) {
+        gapi.auth2.getAuthInstance().signIn();
+      }
+      function handleSignoutClick(event) {
+        gapi.auth2.getAuthInstance().signOut();
+      }
+      // Load the API and make an API call.  Display the results on the screen.
+      function makeApiCall() {
+        gapi.client.people.people.get({
+          'resourceName': 'people/me',
+          'requestMask.includeField': 'person.names'
+        }).then(function(resp) {
+         console.log(resp)
+          p.appendChild(document.createTextNode('Hello, '+name+'!'));
+          document.getElementById('content').appendChild(p);
+        });
+      }
+    </script> -->
+    <!-- <script async defer src="https://apis.google.com/js/api.js" 
+      onload="this.onload=function(){};handleClientLoad()" 
+      onreadystatechange="if (this.readyState === 'complete') this.onload()">
+    </script> -->
+
+
+
+  <script>
+
+
+
+
+
+    document.addEventListener('DOMContentLoaded', function() {
+           var elems = document.querySelectorAll('.parallax');
+           var instances = M.Parallax.init(elems);
+       })
+
+  
+
+
+  document.addEventListener('DOMContentLoaded', function() {
+    
+    var elems = document.querySelectorAll('select');
+    var instances = M.FormSelect.init(elems);
+  });
+   </script>
+</html>

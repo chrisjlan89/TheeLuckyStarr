@@ -1,0 +1,72 @@
+/* .custom-nav-style {
+    background-image: linear-gradient(to bottom right,#b676d3,#65128c, #401056);
+}
+
+font-family: 'Dancing Script', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Cormorant Upright', serif;
+font-family: 'Sacramento', cursive;
+font-family: 'Tangerine', cursive;
+ */
+
+ #custom-nav-style {
+background-image: url("../../Assets/full-bloom.png");
+height: 100px;
+
+
+ }
+
+ nav  {
+  
+    background-image: url("../../Assets/full-bloom.png");
+    top : 2rem;
+    
+     }
+
+
+.custom-link-style {
+    margin: 1rem  1rem 1rem 0rem;
+    padding-left : 1rem;
+}
+
+ /* nav .nav-wrapper {
+  
+background-image: url("../../Assets/full-bloom.png");
+top : 2rem;
+ } */
+
+
+
+ .custom-brand-text {
+    position: absolute;
+    left :5rem;
+    color: rgb(122, 122, 122) !important;
+    font-family: 'Great Vibes', cursive; 
+    font-size: 2.8rem !important;
+    font-stretch: expanded;
+    top: 1rem;
+ }
+
+
+ /* Text color to override Matierlize */
+
+ nav ul a {
+     color: rgb(122, 122, 122);
+     font-family: 'Great Vibes', cursive;
+     font-size: 2rem;
+     
+ }
+
+ nav ul {
+    top: -1rem;
+
+ }
+
+ /* @media only screen and (min-width: 601px){
+
+ nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+     height: 64px; 
+    line-height: 64px;
+}
+
+ } */
